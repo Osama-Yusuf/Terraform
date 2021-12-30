@@ -1,7 +1,7 @@
 # Terraform Script 
 * ## Prod.tf creates:
 1. #### S3 Bucket 
-2. #### Lanch template that creates an Nginx EC2
+2. #### Lanch template that creates an Nginx instance
 3. #### Default VPC, and two different subnets in us-west-2 for the ELB
 4. #### Security group with two rules the ports are 80 & 443 with tcp protocol and cidr block that allows everything in for both rules 
       ###### *It's not a best practice It's only for learning*
