@@ -17,26 +17,6 @@ variable "web_min_size" {
   type = number
 }
 
-
-/* -------------------------------- variables ------------------------------- */ # Variables are not that handy they are good for learning
-
-# variable "web_ami" {
-  # type  = string
-  # default = "ami-abc123"
-# }
-
-# resource "aws_instance" "web" {
-  # ami           = var.web_ami  # or "${var.web_ami}"
-  # instance_type = "t2.micro"
-# }
-
-# --- as you can override the var value in the command line like this:
-# --- terraform apply -var web_ami=ami-def456
-
-/* -------------------------------- variables ------------------------------- */
-
-/* ---------------------------------------------------------------------------------------------------------------- */
-
 /* ------------------------------ Data Sources ------------------------------ */  # Data Sources are like variables, but they retrive data from AWS or other terraform configuration
 
 # --------------------------------- Examble One --------------------------------- 
