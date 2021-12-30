@@ -8,5 +8,5 @@
 5. #### Elastic load balancer configured with the pre made subnets and ASG.
 6. #### Autoscaling group configured with desired capacity, min size, max size of instances which are configured in the variables file and the pre made availability zones
 7. #### An auto scaling attachement to connect the ELB to the ASG
-8. #### Each of these resourse are created with a Terraform tag, because it's a best practice to identify which resources are managed by terraform 
+8. #### Each of these resourses are created with a Terraform tag, because it's a best practice to identify which resources are managed by terraform 
 * ## Terraform.tfvars is where all the variables are created to delete hard coded values in prod.tf
